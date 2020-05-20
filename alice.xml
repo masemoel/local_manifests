@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="DarkJoker360/android_kernel_huawei_alice" path="kernel/huawei/alice" remote="github" revision="cm-14.1"/>
+  <project name="DarkJoker360/android_device_huawei_alice" path="device/huawei/alice" remote="github" revision="cm-14.1"/>
+  <project name="DarkJoker360/android_vendor_huawei_alice" path="vendor/huawei/alice" remote="github" revision="cm-14.1"/>
+  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
+</manifest>
