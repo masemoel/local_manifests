@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aoleary"
+           fetch="https://github.com/aoleary/"
+           revision="pie" />
+
+  <remote  name="suicide"
+           fetch="https://github.com/Suicide-Squirrel/"
+           revision="lineage-16.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/lineageOS/"
+           revision="lineage-16.0" />
+
+<!-- REMOVALS (must be at TOP) -->
+  <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
+  <!--remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" />-->
+  <remove-project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
+  <remove-project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
+
+<!-- Devices -->
+  <project name="device_lge_h811" path="device/lge/h811" remote="aoleary" />
+  <project name="device_lge_h815" path="device/lge/h815" remote="aoleary" />
+
+<!-- Common Tree -->
+  <project name="device_lge_g4-common" path="device/lge/g4-common" remote="aoleary" />
+
+<!-- Kernel -->
+ <project name="G4-Titan-Kernel" path="kernel/lge/msm8992" remote="aoleary" />
+
+<!-- Vendor -->
+  <project path="vendor/lge" name="vendor_lge" remote="aoleary" />
+
+<!-- LOS stuff -->
+  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="lineage" />
+
+<!-- Libbt -->
+  <!--project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="suicide" />-->
+
+<!-- Wificond -->
+  <project path="system/connectivity/wificond" name="Suicide-Squirrel/android_system_connectivity_wificond" remote="github" revision="p" />
+
+<!-- Sync softap -->
+  <project path="system/qcom" name="HexagonRom/system_qcom.git" remote="github" revision="pie" />
+
+<!-- Power repo -->
+  <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />-->
+
+<!-- F-Droid -->
+  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
+
+</manifest>
