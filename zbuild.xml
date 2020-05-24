@@ -40,7 +40,7 @@
 <!-- Wificond -->
   <project path="system/connectivity/wificond" name="Suicide-Squirrel/android_system_connectivity_wificond" remote="github" revision="p" />
 
-<!-- Sync softap -->
+<!-- Sync SoftAP -->
   <project path="system/qcom" name="HexagonRom/system_qcom.git" remote="github" revision="pie" />
 
 <!-- Power repo -->
@@ -48,5 +48,8 @@
 
 <!-- F-Droid -->
   <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
+
+<!-- Lawnchair alpha -->
+  <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
 </manifest>
