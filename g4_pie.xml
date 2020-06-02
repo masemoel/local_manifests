@@ -17,16 +17,17 @@
   <!--remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="pdk" />-->
   <remove-project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <remove-project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
+  <remove-project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
 
 <!-- Devices -->
   <project name="device_lge_h811" path="device/lge/h811" remote="aoleary" />
   <project name="device_lge_h815" path="device/lge/h815" remote="aoleary" />
 
 <!-- Common Tree -->
-  <project name="device_lge_g4-common" path="device/lge/g4-common" remote="aoleary" />
+  <project name="device_lge_g4-common" path="device/lge/g4-common" remote="aoleary" revision="pie_0525" />
 
 <!-- Kernel -->
- <project name="G4-Titan-Kernel" path="kernel/lge/msm8992" remote="aoleary" />
+ <project name="G4-Titan-Kernel" path="kernel/lge/msm8992" remote="aoleary" revision="pie_0525" />
 
 <!-- Vendor -->
   <project path="vendor/lge" name="vendor_lge" remote="aoleary" />
@@ -45,9 +46,6 @@
 
 <!-- Power repo -->
   <!--project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="suicide" revision="lineage-16.0_synced" />-->
-
-<!-- F-Droid -->
-  <project name="cryptomilk/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="master" />
 
 <!-- Lawnchair alpha -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
