@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="masemoel/kernel_huawei_hi6210sft" path="kernel/huawei/alice" remote="github" revision="7.x"/>
+  <project name="masemoel/kernel_huawei_hi6210sft" path="kernel/huawei/alice" remote="github" revision="crDroid_n"/>
   <project name="masemoel/device_huawei_alice" path="device/huawei/alice" remote="github" revision="crDroid_n"/>
-  <project name="masemoel/vendor_huawei_alice" path="vendor/huawei/alice" remote="github" revision="7.x"/>
+  <project name="masemoel/vendor_huawei_alice" path="vendor/huawei/alice" remote="github" revision="crDroid_n"/>
   <project name="masemoel/vendor_lawnchair_legacy" path="vendor/lawnchair" remote="github" revision="master" />
   <project name="Huawei-P8-Lite/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
   <project name="Huawei-P8-Lite/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" />
