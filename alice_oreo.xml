@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="masemoel/kernel_huawei_hi6210sft" path="kernel/huawei/alice" remote="github" revision="8.x" />
-  <project name="masemoel/device_huawei_alice" path="device/huawei/alice" remote="github" revision="lineage-15.1" />
-  <project name="masemoel/vendor_huawei_alice" path="vendor/huawei/alice" remote="github" revision="8.x" />
-  <project name="masemoel/vendor_lawnchair_legacy" path="vendor/lawnchair" remote="github" revision="master" />
-</manifest>
