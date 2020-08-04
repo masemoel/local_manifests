@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Mango225/kernel_xiaomi_picasso" path="kernel/xiaomi/picasso" remote="github" revision="Feisty"/>
+  <project name="Mango225/device-xiaomi-picasso" path="device/xiaomi/picasso" remote="github" revision="evox"/>
+  <project name="xhuofan-16/android_vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="master"/>
+</manifest>
