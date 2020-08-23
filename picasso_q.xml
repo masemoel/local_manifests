@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
-  <project name="Mango225/device-xiaomi-picasso" path="device/xiaomi/picasso" remote="github" revision="syb_test"/>
+  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sd7250" remote="github" revision="lineage-17.1"/>
+  <project name="Mango225/device-xiaomi-picasso" path="device/xiaomi/picasso" remote="github" revision="evox"/>
   <project name="PeterCxy/android_vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
 </manifest>
