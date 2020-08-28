@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+<remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
   
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" />
@@ -15,5 +17,14 @@
 
 <!-- Sepolicy -->
   <project name="masemoel/system_sepolicy" path="system/sepolicy" remote="github" revision="10.0"/>
+  
+<!-- Lawnchair -->
+  <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
+  
+<!-- OpenGApps -->
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
 </manifest>
