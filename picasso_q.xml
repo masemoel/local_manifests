@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+<!-- REMOVALS (must be at TOP) -->
+  <remove-project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" />
+
+<!-- Device tree -->
   <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-Q"/>
+  
+<!-- Kernel -->
   <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sd7250" remote="github" revision="lineage-17.1"/>
+  
+<!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
+
+<!-- Sepolicy -->
+  <project name="masemoel/system_sepolicy" path="system/sepolicy" remote="github" revision="10.0"/>
+
 </manifest>
