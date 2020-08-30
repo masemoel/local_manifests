@@ -10,7 +10,7 @@
   <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-Q_test"/>
   
 <!-- Kernel -->
-  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sd7250" remote="github" revision="lineage-17.1"/>
+  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sm7250" remote="github" revision="lineage-17.1"/>
   
 <!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
