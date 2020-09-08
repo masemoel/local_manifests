@@ -7,10 +7,7 @@
   <remove-project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" />
 
 <!-- Device tree -->
-  <project name="masemoel/device_xiaomi_picasso-q" path="device/xiaomi/picasso" remote="github" revision="crDroid-Q_test"/>
-  
-<!-- Kernel -->
-  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
+  <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
   
 <!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
@@ -21,10 +18,10 @@
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
   
-#<!-- OpenGApps -->
-#<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-#<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-#<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-#<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<!-- OpenGApps -->
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
 </manifest>
