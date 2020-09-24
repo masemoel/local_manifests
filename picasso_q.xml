@@ -5,10 +5,10 @@
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
 
 <!-- Device tree -->
-  <project name="masemoel/device_xiaomi_picasso-q" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
+  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
   
 <!-- Vendor -->
-  <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="lineage-17.1"/>
+  <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
 
 <!-- Sepolicy -->
   <project name="masemoel/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
