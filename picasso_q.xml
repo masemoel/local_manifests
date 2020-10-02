@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-<!-- REMOVALS (must be at TOP) -->
-  <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
 
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
@@ -11,7 +8,7 @@
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
 
 <!-- Sepolicy -->
-  <project name="masemoel/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
+  <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
   
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
