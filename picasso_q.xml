@@ -24,4 +24,7 @@
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
+<!-- ANXcamera -->
+  <project name="Redmi-K30-5G" path="vendor/ANXcamera" remote="github" revision="picasso-v185" />
+
 </manifest>
