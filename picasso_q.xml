@@ -8,6 +8,9 @@
 
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
+
+<!-- Kernel -->
+  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sm7250" remote="github" revision="lineage-17.1"/>
   
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
@@ -24,7 +27,7 @@
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
-<!-- ANXcamera -->
-  <project name="Redmi-K30-5G" path="vendor/ANXcamera" remote="github" revision="picasso-v185" />
+<!-- ANXCamera -->
+  <project name="Redmi-K30-5G/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="picasso-v185" />
 
 </manifest>
