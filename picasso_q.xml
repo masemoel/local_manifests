@@ -3,23 +3,16 @@
   
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
-  <remove-project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" />
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
 
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
-
-<!-- Kernel -->
-  <project name="PeterCxy/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/sm7250" remote="github" revision="lineage-17.1"/>
   
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
 
 <!-- Sepolicy -->
   <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
-
-<!-- Build/soong -->
-  <project name="Magma-WIP/build_soong" path="build/soong" remote="github" revision="ten-metalava"/>
   
 <!-- Art -->
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
