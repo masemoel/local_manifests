@@ -39,7 +39,7 @@
   <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
 
 <!-- Vendor/AICP -->
-  <project name="Redmi-K30-5G/vendor_aicp-q" path="vendor/aicp" remote="github" revision="q10.0"/>
+  <project name="masemoel/vendor_aicp-q" path="vendor/aicp" remote="github" revision="q10.0"/>
 
 <!-- OpenGApps -->
 <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
