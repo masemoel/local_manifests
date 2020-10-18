@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="opengapps" fetch="https://github.com/opengapps/"  />
-<remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
-  
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="ten" />
+
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
   <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
@@ -23,11 +24,17 @@
 <!-- Art -->
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
 
+<!-- Face unlock -->
+  <project path="external/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
+
 <!-- Frameworks/av -->
   <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
 
 <!-- Frameworks/base -->
   <project name="masemoel/frameworks_base_aicp-q" path="framewokrs/base" remote="github" revision="q10.0"/>
+  
+<!-- Pixel-gapps -->
+  <project path="vendor/pixelgapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
@@ -40,13 +47,4 @@
 
 <!-- Vendor/AICP -->
   <project name="masemoel/vendor_aicp-q" path="vendor/aicp" remote="github" revision="q10.0"/>
-
-<!-- OpenGApps -->
-<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<!-- arm64 depends on arm -->
-<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
