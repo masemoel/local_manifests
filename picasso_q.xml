@@ -4,8 +4,12 @@
 <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
   
 <!-- REMOVALS (must be at TOP) -->
-  <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
+  <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
+  <remove-project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <remove-project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
+  <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
+  <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
@@ -13,21 +17,32 @@
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
 
-<!-- Sepolicy -->
-  <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
+<!-- ANXCamera -->
+  <project name="Redmi-K30-5G/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="picasso-v185" />
   
 <!-- Art -->
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
+
+<!-- Frameworks/av -->
+  <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
+
+<!-- Frameworks/base -->
+  <project name="masemoel/frameworks_base_aicp-q" path="framewokrs/base" remote="github" revision="q10.0"/>
   
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
 
-<!-- ANXCamera -->
-  <project name="Redmi-K30-5G/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="picasso-v185" />
+<!-- Settings app -->
+  <project name="masemoel/packages_apps_settings_aicp-q" path="packages/apps/Settings" remote="github" revision="q10.0"/>
 
-<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+<!-- Sepolicy -->
+  <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
+
+<!-- Vendor/AICP -->
+  <project name="Redmi-K30-5G/vendor_aicp-q" path="vendor/aicp" remote="github" revision="q10.0"/>
 
 <!-- OpenGApps -->
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
 <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 <!-- arm64 depends on arm -->
 <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
