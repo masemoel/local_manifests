@@ -6,11 +6,9 @@
 
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
-  <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <remove-project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <remove-project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
 
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
@@ -25,22 +23,16 @@
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
 
 <!-- Face unlock -->
-  <project path="external/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
 
 <!-- Frameworks/av -->
   <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
-
-<!-- Frameworks/base -->
-  <project name="masemoel/frameworks_base_aicp-q" path="framewokrs/base" remote="github" revision="q10.0"/>
   
 <!-- Pixel-gapps -->
-  <project path="vendor/pixelgapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
-
-<!-- Settings app -->
-  <project name="masemoel/packages_apps_settings_aicp-q" path="packages/apps/Settings" remote="github" revision="q10.0"/>
 
 <!-- Sepolicy -->
   <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
