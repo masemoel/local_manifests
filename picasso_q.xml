@@ -6,6 +6,7 @@
 
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
+  <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
@@ -23,6 +24,9 @@
 
 <!-- Face unlock -->
   <project path="vendor/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
+
+<!-- Frameworks/av -->
+  <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
   
 <!-- Lawnchair -->
   <project name="arter97/android_vendor_lawnchair" path="vendor/lawnchair" remote="github" revision="master" />
