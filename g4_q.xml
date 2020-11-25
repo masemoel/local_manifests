@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="ten" />
+
+  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
-  <remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <remove-project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <remove-project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
   <remove-project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage" />
@@ -15,8 +19,8 @@
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 <!-- G4 models -->
-  <project name="aoleary/device_lge_h811" path="device/lge/h811" remote="github" revision="havoc-Q"/>
-  <project name="aoleary/device_lge_h815" path="device/lge/h815" remote="github" revision="havoc-Q"/>
+  <project name="aoleary/device_lge_h811.git" path="device/lge/h811" remote="github" revision="havoc_Q"/>
+  <project name="aoleary/device_lge_h815.git" path="device/lge/h815" remote="github" revision="havoc_Q"/>
 
 <!-- G4 common tree -->
   <project name="aoleary/device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="q_aol"/>
@@ -25,16 +29,16 @@
   <project name="aoleary/G4-Titan-Kernel" path="kernel/lge/msm8992" remote="github" revision="q_aol"/>
 
 <!-- Vendor -->
-  <project name="Suicide-Squirrel/propietary_vendor_lge" path="vendor/lge" remote="github" revision="android-10.0"/>
+  <project name="Suicide-Squirrel/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="android-10.0"/>
 
 <!-- Art -->
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
 
 <!-- Face unlock -->
-  <project path="vendor/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
 
 <!-- Libbt -->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="github" revision="lineage-16.0"/>
+  <project path="hardware/broadcom/libbt" name="Suicide-Squirrel/android_hardware_broadcom_libbt" remote="github" revision="lineage-16.0" />
 
 <!-- Pixel-gapps -->
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
