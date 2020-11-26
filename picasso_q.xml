@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="ten" />
+
+  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
-  <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
@@ -26,11 +29,8 @@
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
 
 <!-- Face unlock -->
-  <project path="vendor/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" clone-depth="1" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
 
-<!-- Frameworks/av -->
-  <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
-  
 <!-- Pixel-gapps -->
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
