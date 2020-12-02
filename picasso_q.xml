@@ -14,11 +14,8 @@
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
-<!-- K30 5G -->
+<!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
-
-<!-- K30i 5G -->
-  <project name="Redmi-K30-5G/device_xiaomi_picasso_48m" path="device/xiaomi/picasso_48m" remote="github" revision="AICP-Q"/>
   
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AICP-Q"/>
@@ -33,7 +30,7 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
 
 <!-- Frameworks/av -->
-  <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="framewokrs/av" remote="github" revision="q10.0"/>
+  <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="frameworks/av" remote="github" revision="q10.0"/>
 
 <!-- Pixel-gapps -->
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
