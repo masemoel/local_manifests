@@ -4,12 +4,9 @@
           fetch="https://gitlab.com/PixelExperience"
           revision="ten" />
 
-  <remote name="pixel-gitlab-self-hosted"
-          fetch="https://gitlab.pixelexperience.org/android"
-          revision="ten" />
-
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
+  <remove-project path="frameworks/base" name="AICP/frameworks_base" groups="pdk" remote="aicp" />
   <remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <remove-project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <remove-project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
@@ -19,11 +16,11 @@
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 <!-- G4 models -->
-  <project name="aoleary/device_lge_h811.git" path="device/lge/h811" remote="github" revision="havoc_Q"/>
-  <project name="aoleary/device_lge_h815.git" path="device/lge/h815" remote="github" revision="havoc_Q"/>
+  <project name="masemoel/device_lge_h811" path="device/lge/h811" remote="github" revision="AICP-Q"/>
+  <project name="masemoel/device_lge_h815" path="device/lge/h815" remote="github" revision="AICP-Q"/>
 
 <!-- G4 common tree -->
-  <project name="aoleary/device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="q_aol"/>
+  <project name="masemoel/device_lge_g4-common" path="device/lge/g4-common" remote="github" revision="AICP-Q"/>
 
 <!-- Kernel -->
   <project name="aoleary/G4-Titan-Kernel" path="kernel/lge/msm8992" remote="github" revision="q_aol"/>
@@ -33,9 +30,9 @@
 
 <!-- Art -->
   <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
-
-<!-- Face unlock -->
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
+  
+<!-- Frameworks/base -->
+  <project name="masemoel/frameworks_base_aicp-q" path="frameworks/base" remote="github" revision="q10.0"/>
 
 <!-- Libbt -->
   <project path="hardware/broadcom/libbt" name="Suicide-Squirrel/android_hardware_broadcom_libbt" remote="github" revision="lineage-16.0" />
