@@ -2,17 +2,14 @@
 <manifest>
 
 <!-- REMOVALS (must be at TOP) -->
-  <remove-project path="art" name="platform_art" groups="pdk" remote="aex" />
+  <remove-project path="art" name="android_art" remote="legion" revision="11" />
 
 <!-- Device tree -->
-  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AEX-R"/>
+  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="Legion-R"/>
   
 <!-- Vendor -->
-  <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="AEX-R"/>
-
-<!-- ANXCamera -->
-  <project name="Redmi-K30-5G/vendor_aeonax_ANXCamera-r" path="vendor/aeonax/ANXCamera" remote="github" revision="R"/>
+  <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="Legion-R"/>
   
 <!-- Art -->
-  <project name="masemoel/art_aex-r" path="art" remote="github" revision="11.x"/>
+  <project name="masemoel/art_legion-r" path="art" remote="github" revision="11"/>
 </manifest>
