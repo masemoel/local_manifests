@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
-          revision="ten" />
-
 <!-- REMOVALS (must be at TOP) -->
   <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
   <remove-project path="frameworks/base" name="AICP/frameworks_base" groups="pdk" remote="aicp" />
@@ -36,9 +32,6 @@
 
 <!-- Libbt -->
   <project path="hardware/broadcom/libbt" name="Suicide-Squirrel/android_hardware_broadcom_libbt" remote="github" revision="lineage-16.0" />
-
-<!-- Pixel-gapps -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
 <!-- Softap -->
   <project path="system/qcom" name="HexagonRom/system_qcom" remote="github" revision="pie" />
