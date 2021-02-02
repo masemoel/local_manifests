@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Github -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
 <!-- Device tree -->
   <project name="Redmi-K30-5G/device_xiaomi_picasso_recovery" path="device/xiaomi/picasso" remote="github" revision="android-11.0_ofrp"/>
 
