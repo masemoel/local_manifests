@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Device tree -->
+  <project name="masemoel/device_huawei_alice-O" path="device/huawei/alice" remote="github" revision="crDroid-O"/>
+  
+<!-- Kernel -->
+  <project name="masemoel/kernel_huawei_hi6210sft" path="kernel/huawei/alice" remote="github" revision="crDroid-O"/>
+  
+<!-- Vendor -->
+  <project name="masemoel/vendor_huawei_alice" path="vendor/huawei/alice" remote="github" revision="crDroid-O"/>
+</manifest>
