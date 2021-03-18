@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device tree -->
-  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="Legion-R"/>
+  <project name="Redmi-K30-5G/device_xiaomi_picasso-R" path="device/xiaomi/picasso" remote="github" revision="Legion-R"/>
   
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="Legion-R"/>
-  
-<!-- MIUI camera -->
-  <project name="Redmi-K30-5G/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github" revision="picasso-v191"/>
 </manifest>
