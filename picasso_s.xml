@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device tree -->
-  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="AEX-S"/>
+  <project name="Redmi-K30-5G/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-S"/>
   
 <!-- Vendor -->
   <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-12.0"/>
+  
+<!-- Hotword -->
+  <project name="chiru2000/vendor_xiaomi_google" path="vendor/xiaomi/google" remote="github" revision="master"/>
 </manifest>
