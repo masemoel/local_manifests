@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
-          revision="ten" />
-
 <!-- REMOVALS (must be at TOP) -->
-  <remove-project path="art" name="AICP/art" groups="pdk" remote="aicp" />
   <remove-project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <remove-project path="frameworks/base" name="AICP/frameworks_base" groups="pdk" remote="aicp" />
   <remove-project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <remove-project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 <!-- Device tree -->
-  <project name="Redmi-K30-5G/device_xiaomi_picasso-Q" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
+  <project name="masemoel/device_xiaomi_picasso-Q" path="device/xiaomi/picasso" remote="github" revision="AICP-Q"/>
   
 <!-- Vendor -->
-  <project name="Redmi-K30-5G/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-10"/>
+  <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-10"/>
 
 <!-- ANXCamera -->
   <project name="Redmi-K30-5G/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="picasso-v185" />
-  
-<!-- Art -->
-  <project name="masemoel/art" path="art" remote="github" revision="q10.0"/>
 
 <!-- Frameworks/av -->
   <project name="Redmi-K30-5G/frameworks_av_aicp-q" path="frameworks/av" remote="github" revision="q10.0"/>
-  
-<!-- Frameworks/base -->
-  <project name="masemoel/frameworks_base_aicp-q" path="frameworks/base" remote="github" revision="q10.0"/>
-
-<!-- Pixel-gapps -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 
 <!-- Sepolicy -->
   <project name="Redmi-K30-5G/system_sepolicy" path="system/sepolicy" remote="github" revision="AICP-Q"/>
