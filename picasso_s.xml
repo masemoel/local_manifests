@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device tree -->
-  <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-S"/>
+  <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-SL"/>
+
+<!-- Kernel -->
+  <project name="EndCredits/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="12.0-main"/>
   
 <!-- Vendor -->
-  <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-12.0"/>
+  <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-12.1"/>
   
 <!-- Hotword -->
   <project name="MangoTM/vendor_xiaomi_google_S" path="vendor/xiaomi/google" remote="github" revision="main"/>
+  
+<!-- Xiaomi HALs -->
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-19.1"/>
+
+<!-- Legacy display HAL -->
+  <remove-project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" />
+  <project name="masemoel/hardware_qcom-caf_display_sm8250" path="hardware/qcom-caf/sm8250/display" remote="github" revision="android-12.1"/>
 </manifest>
