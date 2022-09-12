@@ -9,9 +9,6 @@
 <!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-12.1"/>
   
-<!-- Hotword -->
-  <project name="MangoTM/vendor_xiaomi_google_S" path="vendor/xiaomi/google" remote="github" revision="main"/>
-  
 <!-- Xiaomi HALs -->
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-19.1"/>
 
