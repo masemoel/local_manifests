@@ -4,7 +4,7 @@
   <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-T"/>
 
 <!-- Kernel -->
-  <project name="EndCredits/clo_msm-4.19" path="kernel/xiaomi/picasso" remote="github" revision="android-4.19-clo"/>
+  <project name="EndCredits/android_kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="13.0"/>
   
 <!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" remote="github" revision="android-13.0"/>
