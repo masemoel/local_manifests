@@ -17,4 +17,7 @@
   
 <!-- Xiaomi HALs -->
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20"/>
+
+<!-- KProfiles -->
+  <project name="crdroidandroid/packages_apps_KProfiles" path="packages/apps/KProfiles" remote="github" revision="13.0"/>
 </manifest>
