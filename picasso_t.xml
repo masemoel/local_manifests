@@ -9,13 +9,13 @@
   <project name="masemoel/device_xiaomi_picasso" path="device/xiaomi/picasso" remote="github" revision="crDroid-T"/>
 
 <!-- Kernel -->
-  <project name="EndCredits/kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="android-4.19-main"/>
+  <project name="EndCredits/kernel_xiaomi_sm7250" path="kernel/xiaomi/picasso" remote="github" revision="android-4.19"/>
   
 <!-- Vendor -->
   <project name="masemoel/vendor_xiaomi_picasso" path="vendor/xiaomi/picasso" revision="android-13.0" remote="masemoel-gitlab"/>
   
 <!-- Xiaomi HALs -->
-  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="13.0"/>
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20"/>
   
 <!-- KProfiles -->
   <project name="crdroidandroid/packages_apps_KProfiles" path="packages/apps/KProfiles" remote="github" revision="13.0"/>
