@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Common device tree -->
+  <project name="masemoel/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="crDroid-T"/>
+
+<!-- Alioth device tree -->
+  <project name="masemoel/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="crDroid-T"/>
+
+<!-- Kernel -->
+  <project name="EmanuelCN/kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="staging"/>
+
+<!-- Common vendor tree -->
+  <project name="masemoel/vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="crDroid-T"/>
+
+<!-- Alioth vendor tree -->
+  <project name="masemoel/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="crDroid-T"/>
+  
+<!-- MIUI camera -->
+  <project name="AbrarNoob/android_vendor_xiaomi_alioth-miuicamera" path="vendor/xiaomi/alioth-miuicamera" revision="stable" remote="masemoel-gitlab"/>
+</manifest>
