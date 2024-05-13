@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="masemoel-gitlab"
+             fetch="https://gitlab.com/"
+             sync-c="true"
+             sync-j="4" />
+
 <!-- Common device tree -->
   <project name="masemoel/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="crDroid-U"/>
 
@@ -16,5 +21,5 @@
   <project name="masemoel/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="crDroid-U"/>
   
 <!-- MIUI camera -->
-  <project name="AbrarNoob/miui-camera" path="vendor/xiaomi/camera" revision="master" remote="masemoel-gitlab"/>
+  <project name="johnmart19/vendor_xiaomi_camera" path="vendor/xiaomi/camera" revision="aosp-14" remote="masemoel-gitlab"/>
 </manifest>
